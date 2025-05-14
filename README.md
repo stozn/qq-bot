@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/stozn/qq-bot
 cd qq-bot
-conda create -n qq-bot python=3.12
+conda create -n qq-bot python=3.12 -y
 conda activate qq-bot
 pip install -r requirements.txt
 # 修改 env.prod.example 中的 id, token, secret, 并重命名为 .env.prod
